@@ -61,8 +61,18 @@ $custom-fs-3-25rem: 3.25rem;
   color: $main-dark-font;
 }
 
+#basic-nav-dropdown:hover {
+  color: $main-blue-color;
+}
+
 .text-indent-dropdown {
   text-indent: 8px;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: $main-blue-color;
+  background: none;
 }
 
 // Border
