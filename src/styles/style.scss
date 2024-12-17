@@ -87,3 +87,18 @@ $custom-fs-3-25rem: 3.25rem;
 .fw-500 {
   font-weight: 500;
 }
+
+// frontpage
+
+.frontpage-banner {
+  height: 400px;
+  width: 100%;
+  filter: brightness(60%);
+  object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .frontpage-banner {
+    height: 600px;
+  }
+}
