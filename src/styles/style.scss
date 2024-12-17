@@ -6,10 +6,99 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
-// Sticky footer
+// Color variables
+
+$main-dark-font: #212529;
+$secondary-blue-font: #1e2245;
+$main-blue-color: #0092ff;
+
+// Font classes
+
+.blue-font {
+  color: $secondary-blue-font;
+}
+
+.dark-font {
+  color: $main-dark-font;
+}
+
+// Font size variables
+
+$custom-fs-0-75rem: 0.75rem;
+$custom-fs-1-25rem: 1.25rem;
+$custom-fs-1-5rem: 1.5rem;
+$custom-fs-2rem: 2rem;
+$custom-fs-3rem: 3rem;
+$custom-fs-3-25rem: 3.25rem;
+
+// Non responsive font sizes
+
+.fs-1-25rem {
+  font-size: $custom-fs-1-25rem;
+}
+
+// Root styles
+
+* {
+  font-family: "DM Sans", serif;
+  color: $main-dark-font;
+}
 
 #root {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+// Nav
+
+.header-logo {
+  height: 100px;
+  width: 150px;
+}
+
+#basic-nav-dropdown {
+  color: $main-dark-font;
+}
+
+#basic-nav-dropdown:hover {
+  color: $main-blue-color;
+}
+
+.text-indent-dropdown {
+  text-indent: 8px;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: $main-blue-color;
+  background: none;
+}
+
+// Border
+
+.dropdown-border {
+  border-bottom: 2px solid $main-blue-color;
+  width: 100%;
+}
+
+// Utility classes
+
+.fw-500 {
+  font-weight: 500;
+}
+
+// frontpage
+
+.frontpage-banner {
+  height: 400px;
+  width: 100%;
+  filter: brightness(60%);
+  object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .frontpage-banner {
+    height: 600px;
+  }
 }
