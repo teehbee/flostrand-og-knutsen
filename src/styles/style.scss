@@ -6,10 +6,25 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
-// Sticky footer
+// Root styles
+
+* {
+  font-family: "DM Sans", serif;
+}
 
 #root {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+// Nav
+
+.header-logo {
+  height: 100px;
+  width: 150px;
+}
+
+.h100 {
+  min-height: 400px;
 }

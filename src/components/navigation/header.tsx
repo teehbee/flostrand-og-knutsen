@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
 
 function Header() {
@@ -14,51 +15,58 @@ function Header() {
   const handleShow = () => setShow(true);
   return (
     <>
-      <Navbar expand="lg" className="bg-body-primary position-relative main-header">
+      <Navbar expand="lg" className="">
         <div className="container px-4">
-          <a href="/">
-            <img src={mainLogo} alt="" />
-            Test
-          </a>
+          <Link to="/">
+            <img src={mainLogo} className="header-logo" aria-label="logo" />
+          </Link>
           <img src={menuBars} className="d-lg-none nav-bars-button" aria-label="menu-button" onClick={handleShow} />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto main-navigation">
-              <Link to={"#about-section"} className="btn main-font fs-1-5rem">
-                About me
-              </Link>
-              <Link to={"#resume-section"} className="btn main-font fs-1-5rem">
-                Resume
-              </Link>
-              <Link to={"#projects-section"} className="btn main-font fs-1-5rem">
-                Projects
-              </Link>
-              <Link to={"#services-section"} className="btn main-font fs-1-5rem">
-                Services
-              </Link>
-              <Link to={"#contact-section"} className="btn main-font fs-1-5rem">
-                Contact
-              </Link>
+              <NavDropdown title="Tjenester" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#tjeneste1">Tjeneste 1</NavDropdown.Item>
+                <NavDropdown.Item href="#tjeneste1">Tjeneste 2</NavDropdown.Item>
+                <NavDropdown.Item href="#tjeneste1">Tjeneste 3</NavDropdown.Item>
+                <NavDropdown.Item href="#tjeneste1">Tjeneste 4</NavDropdown.Item>
+              </NavDropdown>
+              <Nav.Link href="/about" className="btn">
+                Om oss
+              </Nav.Link>
+              <Nav.Link href="/contact" className="btn">
+                Kontakt
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </div>
       </Navbar>
-      <Offcanvas className="gray-color d-block d-lg-none" show={show} onHide={handleClose} responsive="lg">
+      <Offcanvas className="gray-color d-block d-lg-none h100" show={show} onHide={handleClose} responsive="lg">
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title className="gray-color secondary-font fs-1-5rem">thbergseng</Offcanvas.Title>
+          <Offcanvas.Title className="">
+            <img src={mainLogo} className="header-logo" aria-label="logo" />
+          </Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body className="d-flex flex-column gray-color align-items-start">
-          <Link to={"#about-section"} onClick={handleClose} className="btn main-font fs-1-25rem dropdown-border text-start">
-            About me
-          </Link>
-          <Link to={"#projects-section"} onClick={handleClose} className="btn main-font fs-1-25rem dropdown-border text-start">
-            Resume
-          </Link>
-          <Link to={"#services-section"} onClick={handleClose} className="btn main-font fs-1-25rem dropdown-border text-start">
-            Services
-          </Link>
-          <Link to={"#contact-section"} onClick={handleClose} className="btn main-font fs-1-25rem dropdown-border text-start">
-            Contact
-          </Link>
+        <Offcanvas.Body className="d-flex flex-column align-items-start h100">
+          <Navbar.Text className="py-1 fw-bold">Tjenester</Navbar.Text>
+          <div>
+            <Nav.Link href="/tjeneste1" className="btn py-1">
+              Tjeneste 1
+            </Nav.Link>
+            <Nav.Link href="/tjeneste2" className="btn py-1">
+              Tjeneste 2
+            </Nav.Link>
+            <Nav.Link href="/tjeneste3" className="btn py-1">
+              Tjeneste 3
+            </Nav.Link>
+            <Nav.Link href="/tjeneste4" className="btn py-1">
+              Tjeneste 4
+            </Nav.Link>
+          </div>
+          <Nav.Link href="/about" className="btn py-1">
+            Om oss
+          </Nav.Link>
+          <Nav.Link href="/contact" className="btn py-1">
+            Kontakt
+          </Nav.Link>
         </Offcanvas.Body>
       </Offcanvas>
     </>

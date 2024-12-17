@@ -1,3 +1,3 @@
-import mainLogo from "./F K-01.svg";
+import mainLogo from "./fk-logo.png";
 
 export { mainLogo };
