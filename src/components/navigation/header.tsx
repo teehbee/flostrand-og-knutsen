@@ -15,14 +15,14 @@ function Header() {
   const handleShow = () => setShow(true);
   return (
     <>
-      <Navbar expand="lg" className="">
-        <div className="container px-4">
+      <Navbar expand="lg" className="container-fluid">
+        <div className="container-fluid px-4">
           <Link to="/">
             <img src={mainLogo} className="header-logo" aria-label="logo" />
           </Link>
           <img src={menuBars} className="d-lg-none nav-bars-button" aria-label="menu-button" onClick={handleShow} />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto main-navigation dark-font">
+            <Nav className="ms-auto main-navigation dark-font pe-3">
               <NavDropdown title="Tjenester" id="basic-nav-dropdown" className="dark-font fs-1-25rem fw-500">
                 <NavDropdown.Item href="#tjeneste1" className="dark-font fs-1-25rem fw-500">
                   Tjeneste 1
