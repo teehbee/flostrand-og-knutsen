@@ -147,6 +147,17 @@ $custom-fs-3-625rem: 3.625rem;
   background-image: linear-gradient(-180deg, #1d95c9 0%, #17759c 100%);
 }
 
+.transparent-button {
+  border-radius: 50px;
+  padding: 10px 25px;
+  border: 2px solid $main-dark-font;
+  color: $main-dark-font;
+  font-weight: 500;
+}
+
+.transparent-button:hover {
+  text-shadow: 0px 0px 1px $secondary-blue-font;
+}
 // Utility classes
 
 .fw-500 {
@@ -154,7 +165,7 @@ $custom-fs-3-625rem: 3.625rem;
 }
 
 .link-text:hover {
-  text-shadow: 0px 0px 1px white;
+  font-weight: 600;
 }
 
 // frontpage

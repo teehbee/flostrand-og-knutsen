@@ -21,10 +21,7 @@ function FrontpageContent() {
       <section id="services" className="container my-5">
         <div>
           <h2 className="dark-font fs-2-125rem-to-3-625rem fw-bold">Tjenestene vi tilbyr</h2>
-          <p className="my-5 fs-1rem-to-1-25rem fw-500">
-            Vi tilbyr skreddersydde metalløsninger for en rekke bransjer. Fra sveising og konstruksjon til produktutvikling, har vi ekspertisen og utstyret som trengs for å gjennomføre prosjekter av
-            alle størrelser. Våre tjenester inkluderer blant annet.
-          </p>
+          <p className="my-5 fs-1rem-to-1-25rem fw-500">Vi tilbyr skreddersydde metalløsninger for en rekke bransjer. Fra sveising og konstruksjon til produktutvikling, har vi ekspertisen og utstyret som trengs for å gjennomføre prosjekter av alle størrelser. Våre tjenester inkluderer blant annet.</p>
         </div>
         <div className="d-flex my-5 py-5 flex-wrap justify-content-center justify-content-md-between">
           <div className="services-card col-12 col-md-6 col-lg-3 rounded p-0 my-1">
@@ -33,7 +30,9 @@ function FrontpageContent() {
                 <img className="img-fluid rounded" src={gardenServiceCardImg} alt="tjeneste link" />
               </Link>
               <div className="position-absolute bottom-0 start-0">
-                <button className="m-3">Tjeneste</button>
+                <Link to="/tjeneste1">
+                  <button className="m-3 transparent-button">Skogsarbeider</button>
+                </Link>
               </div>
             </div>
           </div>
