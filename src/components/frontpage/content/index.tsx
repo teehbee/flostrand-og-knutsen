@@ -1,3 +1,3 @@
-import { landingTitle, landingQuote, landingButtonText, servicesTitle, servicesDescription } from "./textContent";
+import { landingTitle, landingQuote, landingButtonText, servicesTitle, servicesDescription, landingImageDescription } from "./textContent";
 
-export { landingTitle, landingQuote, landingButtonText, servicesTitle, servicesDescription };
+export { landingTitle, landingQuote, landingButtonText, servicesTitle, servicesDescription, landingImageDescription };

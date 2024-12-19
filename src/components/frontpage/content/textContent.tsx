@@ -6,6 +6,10 @@ export const landingQuote = "Vi er nysgjerrige på hva du jobber med. Ta gjerne 
 
 export const landingButtonText = "Send forespørsel";
 
+// Hero image on landing page
+
+export const landingImageDescription = "Valestrandsfossen sett fra luften";
+
 // Services section on frontpage
 
 export const servicesTitle = "Tjenestene vi tilbyr";
