@@ -102,7 +102,6 @@ $custom-fs-3-625rem: 3.625rem;
 .text-indent-dropdown {
   text-indent: 8px;
 }
-
 .nav-link:hover,
 .dropdown-item:hover {
   color: $main-blue-color;
@@ -186,7 +185,7 @@ $custom-fs-3-625rem: 3.625rem;
 }
 
 .services-card img:hover {
-  filter: brightness(40%);
+  filter: brightness(30%);
 }
 
 @media screen and (min-width: 768px) {
