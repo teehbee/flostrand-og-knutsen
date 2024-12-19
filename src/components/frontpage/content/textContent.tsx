@@ -15,3 +15,13 @@ export const landingImageDescription = "Valestrandsfossen sett fra luften";
 export const servicesTitle = "Tjenestene vi tilbyr";
 
 export const servicesDescription = "Vi tilbyr skreddersydde metalløsninger for en rekke bransjer. Fra sveising og konstruksjon til produktutvikling, har vi ekspertisen og utstyret som trengs for å gjennomføre prosjekter av alle størrelser. Våre tjenester inkluderer blant annet.";
+
+// Client section
+
+export const clientSectionTitle = "Våre kunder";
+
+export const clientLogoAlt = "Link til kundeside";
+
+// Osterøy Ferjeselskap AS
+
+export const ofsLink = "http://osteroy-ferjeselskap.no/";

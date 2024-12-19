@@ -10,7 +10,7 @@ interface landingText {
 const LandingText: React.FC<landingText> = ({ landingTitle, landingQuote, buttonText }) => {
   return (
     <div className="container text-start banner-content">
-      <h1 className="text-light fs-2-125rem-to-3-625rem fw-bold">{landingTitle}</h1>
+      <h2 className="text-light fs-2-125rem-to-3-625rem fw-bold">{landingTitle}</h2>
       <p className="text-light fs-1rem-to-1-25rem">{landingQuote}</p>
       <Link to="/contact" className="text-decoration-none">
         <BlueButton buttonText={buttonText} />
