@@ -12,6 +12,12 @@ $main-dark-font: #212529;
 $secondary-blue-font: #1e2245;
 $main-blue-color: #0092ff;
 
+// Color classes
+
+.main-blue-color {
+  background: $main-blue-color;
+}
+
 // Font classes
 
 .blue-font {
@@ -28,13 +34,41 @@ $custom-fs-0-75rem: 0.75rem;
 $custom-fs-1-25rem: 1.25rem;
 $custom-fs-1-5rem: 1.5rem;
 $custom-fs-2rem: 2rem;
+$custom-fs-2-125rem: 2.125rem;
 $custom-fs-3rem: 3rem;
 $custom-fs-3-25rem: 3.25rem;
+$custom-fs-3-625rem: 3.625rem;
 
 // Non responsive font sizes
 
 .fs-1-25rem {
   font-size: $custom-fs-1-25rem;
+}
+
+// Responsive font sizes
+
+.fs-1rem-to-1-25rem {
+  font-size: 1rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-1-25rem;
+  }
+}
+
+.fs-1rem-to-1-5rem {
+  font-size: 1rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-1-5rem;
+  }
+}
+
+.fs-2-125rem-to-3-625rem {
+  font-size: $custom-fs-2-125rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-3-625rem;
+  }
 }
 
 // Root styles
@@ -75,11 +109,43 @@ $custom-fs-3-25rem: 3.25rem;
   background: none;
 }
 
+// Footer
+
+.footer-icon {
+  height: 30px;
+  width: 30px;
+  margin: 0 0.5rem;
+}
+
 // Border
 
 .dropdown-border {
   border-bottom: 2px solid $main-blue-color;
   width: 100%;
+}
+
+// Buttons
+
+.blue-button {
+  background-image: linear-gradient(-180deg, $main-blue-color 0%, #1e96c8 100%);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: $custom-fs-1-25rem;
+  font-weight: 500;
+  justify-content: center;
+  padding: 0.5rem 1.75rem;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.blue-button:hover {
+  background-image: linear-gradient(-180deg, #1d95c9 0%, #17759c 100%);
 }
 
 // Utility classes
@@ -88,17 +154,64 @@ $custom-fs-3-25rem: 3.25rem;
   font-weight: 500;
 }
 
+.link-text:hover {
+  text-shadow: 0px 0px 1px white;
+}
+
 // frontpage
 
 .frontpage-banner {
   height: 400px;
   width: 100%;
-  filter: brightness(60%);
+  filter: brightness(40%);
   object-fit: cover;
+}
+
+.banner-content {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services-card {
+  margin: -16px;
+  max-width: 427px;
+  max-height: 427px;
+}
+
+.services-card img {
+  filter: brightness(60%);
+  transition: filter 0.5s ease;
+}
+
+.services-card img:hover {
+  filter: brightness(40%);
+}
+
+@media screen and (min-width: 768px) {
+  .banner-content h1,
+  .banner-content p {
+    max-width: 75%;
+  }
+  .blue-button {
+    padding: 0.75rem 2rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
   .frontpage-banner {
     height: 600px;
+  }
+  .banner-content h1,
+  .banner-content p {
+    max-width: 50%;
+  }
+  .banner-content {
+    top: 40%;
+  }
+  .footer-icon {
+    height: 36px;
+    width: 36px;
   }
 }
