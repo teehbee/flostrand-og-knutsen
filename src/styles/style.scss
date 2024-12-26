@@ -157,7 +157,7 @@ $custom-fs-3-625rem: 3.625rem;
 }
 
 .transparent-button:hover {
-  text-shadow: 0px 0px 1px $secondary-blue-font;
+  text-shadow: 0px 0px 1px white;
 }
 // Utility classes
 
@@ -192,12 +192,12 @@ $custom-fs-3-625rem: 3.625rem;
 }
 
 .services-card img {
-  filter: brightness(60%);
+  filter: brightness(50%);
   transition: filter 0.5s ease;
 }
 
 .services-card img:hover {
-  filter: brightness(30%);
+  filter: brightness(25%);
 }
 
 .client-logo {
