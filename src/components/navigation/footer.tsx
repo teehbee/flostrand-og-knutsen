@@ -3,7 +3,7 @@ import { instagramIcon, facebookIcon, youtubeIcon } from "../../assets/icon";
 
 function Footer() {
   return (
-    <div className="main-blue-color text-center py-5">
+    <footer className="main-blue-color text-center py-5">
       <div className="mb-3">
         <a href="">
           <img src={instagramIcon} className="footer-icon" aria-label="Instagram link" />
@@ -49,7 +49,7 @@ function Footer() {
       <div>
         <p className="text-light fw-500">Laget av thbergseng design</p>
       </div>
-    </div>
+    </footer>
   );
 }
 
