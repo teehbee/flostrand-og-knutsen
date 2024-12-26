@@ -150,9 +150,10 @@ $custom-fs-3-625rem: 3.625rem;
 .transparent-button {
   border-radius: 50px;
   padding: 10px 25px;
-  border: 1px solid $main-dark-font;
-  color: $main-dark-font;
-  font-weight: 500;
+  border: 2px solid white;
+  color: white;
+  background: none;
+  font-weight: 600;
 }
 
 .transparent-button:hover {
