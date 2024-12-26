@@ -38,13 +38,13 @@ function Footer() {
         </Link>
       </div>
       <div>
-        <p className="text-light fw-500 text-decoration-none mx-3 fs-1rem-to-1-5rem link-text">Org. nummer: 933 221 245</p>
+        <p className="text-light fw-500 text-decoration-none mx-3 fs-1rem-to-1-5rem">Org. nummer: 933 221 245</p>
       </div>
       <div>
-        <p className="text-light fw-500 text-decoration-none mx-3 fs-1rem-to-1-5rem link-text">Tlf: +47 988 33 436</p>
+        <p className="text-light fw-500 text-decoration-none mx-3 fs-1rem-to-1-5rem">Tlf: +47 988 33 436</p>
       </div>
       <div>
-        <p className="text-light fw-500 text-decoration-none mx-3 fs-1rem-to-1-5rem link-text">E-post: marius@fk-as.no</p>
+        <p className="text-light fw-500 text-decoration-none mx-3 fs-1rem-to-1-5rem">E-post: marius@fk-as.no</p>
       </div>
       <div>
         <p className="text-light fw-500">Laget av thbergseng design</p>
