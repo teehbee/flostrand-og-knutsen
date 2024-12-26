@@ -1,3 +1,3 @@
-import { aboutLandingImageDescription, aboutHeader } from "./textContent";
+import { aboutLandingImageDescription, aboutHeader, aboutLowerImageDescription, aboutLowerImageHeader, aboutLowerImageText } from "./textContent";
 
-export { aboutLandingImageDescription, aboutHeader };
+export { aboutLandingImageDescription, aboutHeader, aboutLowerImageDescription, aboutLowerImageHeader, aboutLowerImageText };

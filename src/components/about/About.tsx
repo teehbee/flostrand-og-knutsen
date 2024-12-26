@@ -1,7 +1,12 @@
-import { AboutLandingSection } from "./sections";
+import { AboutLandingSection, AboutLowerImageSection } from "./sections";
 
 function AboutContent() {
-  return <AboutLandingSection />;
+  return (
+    <>
+      <AboutLandingSection />
+      <AboutLowerImageSection />
+    </>
+  );
 }
 
 export default AboutContent;
