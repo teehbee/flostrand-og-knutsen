@@ -12,6 +12,10 @@ $main-dark-font: #212529;
 $secondary-blue-font: #1e2245;
 $main-blue-color: #0092ff;
 
+// Box shadow variables
+
+$tile-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11), 0 8px 16px rgba(0, 0, 0, 0.11);
+
 // Color classes
 
 .main-blue-color {
@@ -189,6 +193,7 @@ $custom-fs-3-625rem: 3.625rem;
   margin: -16px;
   max-width: 427px;
   max-height: 427px;
+  box-shadow: $tile-box-shadow;
 }
 
 .services-card img {
