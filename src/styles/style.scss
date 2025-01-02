@@ -11,6 +11,7 @@
 $main-dark-font: #212529;
 $secondary-blue-font: #1e2245;
 $main-blue-color: #0092ff;
+$section-border-color: #dee2e6;
 
 // Box shadow variables
 
@@ -135,7 +136,7 @@ $custom-fs-3-625rem: 3.625rem;
 }
 
 .section-border {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid $section-border-color;
 }
 
 // Buttons

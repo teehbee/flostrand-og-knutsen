@@ -55,3 +55,35 @@ export const aboutLowerParagraph5 = "Vi utvikler skreddersydde løsninger for di
 // About services list
 
 export const aboutServicesTitle = "Tjenester";
+
+export const aboutServicesTitlesAndContents = [
+  {
+    title: "Innen fiskeoppdrett:",
+    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+  },
+  {
+    title: "Innen konstruksjon:",
+    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+  },
+  {
+    title: "Innen masseforflytning:",
+    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+  },
+  {
+    title: "Innen jordbruk:",
+    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+  },
+  {
+    title: "Marine industri:",
+    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+  },
+  {
+    title: "Utleige personell:",
+    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+  },
+  {
+    title: "Annet:",
+    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+  },
+  // ... repeat for other categories
+];
