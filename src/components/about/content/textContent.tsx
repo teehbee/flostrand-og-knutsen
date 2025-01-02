@@ -85,5 +85,4 @@ export const aboutServicesTitlesAndContents = [
     title: "Annet:",
     items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
   },
-  // ... repeat for other categories
 ];
