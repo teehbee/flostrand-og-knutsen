@@ -1,4 +1,4 @@
-import { AboutLandingSection, AboutLowerImageSection, AboutTextBody, AboutLowerTextBody, AboutServicesList } from "./sections";
+import { AboutLandingSection, AboutLowerImageSection, AboutTextBody, AboutLowerTextBody, AboutServicesList, AboutBottomSection } from "./sections";
 
 function AboutContent() {
   return (
@@ -8,6 +8,7 @@ function AboutContent() {
       <AboutLowerImageSection />
       <AboutLowerTextBody />
       <AboutServicesList />
+      <AboutBottomSection />
     </>
   );
 }

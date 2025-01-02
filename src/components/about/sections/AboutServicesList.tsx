@@ -3,7 +3,7 @@ import { aboutServicesTitle, aboutServicesTitlesAndContents } from "../content";
 
 function AboutServicesList() {
   return (
-    <section id="about-services-list" className="container pb-5 my-5">
+    <section id="about-services-list" className="container pb-5 mb-5">
       <AboutServicesTitle aboutServicesTitle={aboutServicesTitle} />
       <div className="row section-border pb-3 pb-lg-5 d-flex justify-content-center">
         {aboutServicesTitlesAndContents.map((item, index) => (
