@@ -1,3 +1,5 @@
+export const personelTitle = "Personell";
+
 export const personelHeader = "Utleie av Spesialiserte Tjenester";
 
 export const personelText = [

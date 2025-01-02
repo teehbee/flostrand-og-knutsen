@@ -1,3 +1,5 @@
+export const gardenTitle = "Hagearbeider";
+
 export const gardenHeader = "Trenger header";
 
 export const gardenText = [

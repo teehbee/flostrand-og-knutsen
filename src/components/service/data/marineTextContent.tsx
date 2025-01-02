@@ -1,3 +1,5 @@
+export const marineTitle = "Marine deck fabrication";
+
 export const marineHeader = "PVC Teak Deck – Et moderne, vedlikeholdsfritt alternativ til tradisjonelt teakdekk";
 
 export const marineText = [
