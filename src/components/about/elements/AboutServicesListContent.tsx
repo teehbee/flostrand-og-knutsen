@@ -8,7 +8,9 @@ const AboutServicesListContent: React.FC<aboutServicesListContent> = ({ listTitl
     <div className="pt-3 pt-lg-5 text-center col-12 col-md-6 col-lg-4">
       <h4 className="pb-2">{listTitle}</h4>
       {listItems.map((listItem, index) => (
-        <p key={index}>{listItem}</p>
+        <p className="fs-1rem-to-1-25rem" key={index}>
+          {listItem}
+        </p>
       ))}
     </div>
   );
