@@ -1,4 +1,4 @@
-export const metalworksHeader = "Header goes here";
+export const metalworksHeader = "Trenger en header";
 
 export const metalworksText = [
   {
