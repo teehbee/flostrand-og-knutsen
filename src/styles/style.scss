@@ -67,6 +67,14 @@ $custom-fs-3-625rem: 3.625rem;
   }
 }
 
+.fs-1-5rem-to-2rem {
+  font-size: $custom-fs-1-5rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-2rem;
+  }
+}
+
 .fs-2-125rem-to-3-625rem {
   font-size: $custom-fs-2-125rem;
 
@@ -124,6 +132,10 @@ $custom-fs-3-625rem: 3.625rem;
 .dropdown-border {
   border-bottom: 2px solid $main-blue-color;
   width: 100%;
+}
+
+.section-border {
+  border-bottom: 1px solid gray;
 }
 
 // Buttons

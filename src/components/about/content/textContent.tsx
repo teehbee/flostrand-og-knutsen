@@ -51,3 +51,7 @@ export const aboutLowerParagraph4 = "Vi utfører reparasjoner og vedlikehold på
 
 export const aboutLowerParagraph5Bold = "Tilpassede løsninger: ";
 export const aboutLowerParagraph5 = "Vi utvikler skreddersydde løsninger for dine spesifikke behov, og sørger for at produktet tilfredsstiller alle krav og standarder.";
+
+// About services list
+
+export const aboutServicesTitle = "Tjenester";

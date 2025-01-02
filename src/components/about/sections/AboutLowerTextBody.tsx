@@ -3,13 +3,13 @@ import { AboutTextParagraph } from "../elements";
 
 function AboutLowerTextBody() {
   return (
-    <div className="container py-5 my-5">
+    <section id="about-us-lower-text" className="container py-5 my-5">
       <AboutTextParagraph textContentBold={aboutLowerParagraph1Bold} textContent={aboutLowerParagraph1} />
       <AboutTextParagraph textContentBold={aboutLowerParagraph2Bold} textContent={aboutLowerParagraph2} />
       <AboutTextParagraph textContentBold={aboutLowerParagraph3Bold} textContent={aboutLowerParagraph3} />
       <AboutTextParagraph textContentBold={aboutLowerParagraph4Bold} textContent={aboutLowerParagraph4} />
       <AboutTextParagraph textContentBold={aboutLowerParagraph5Bold} textContent={aboutLowerParagraph5} />
-    </div>
+    </section>
   );
 }
 
