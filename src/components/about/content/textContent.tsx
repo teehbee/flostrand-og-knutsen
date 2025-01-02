@@ -63,26 +63,26 @@ export const aboutServicesTitlesAndContents = [
   },
   {
     title: "Innen konstruksjon:",
-    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+    items: ["Små bygg i aluminium og stål", "Verkstedsløsninger for skip", "Eksosmanifolder i rustfritt stål og stål", "Fundament til maskiner/batterier", "Tegninger og fremstilling"],
   },
   {
     title: "Innen masseforflytning:",
-    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+    items: ["Reperasjon og modifisering", "Skuffer, bommer, beltestyring", "Skifte av slitedeler, hardfacing"],
   },
   {
     title: "Innen jordbruk:",
-    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+    items: ["Løperkatter", "Grinder og porter", "Tilpassing jordbruksredskaper (hurtigfester)", "Ombygge jordbruksmaskiner"],
   },
   {
     title: "Marine industri:",
-    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+    items: ["Targabøyler", "Rekkverk", "Reparasjon varmevekslere og manifolder", "Flåter og landganger", "Tilhenger krybber og vanlige krybber", "Tanker i alle fasonger og alle materiell"],
   },
   {
     title: "Utleige personell:",
-    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+    items: ["Sjøfolk", "Verkstedsarbeid", "Maskinfører"],
   },
   {
     title: "Annet:",
-    items: ["Rennekasser til døfisk i ulike størrelser", "Silekasser med ulike separasjonssystemer", "Tilpassede bur konstruksjoner"],
+    items: ["Flåter og stiger for dykkere", "Transportkasser for alle slags formål", "Oppbevaringsløsninger", "Konstruksjoner for garasjer. Industriområder", "Tilpassede løsninger for lastebiler, traktorer og tilhengere"],
   },
 ];
