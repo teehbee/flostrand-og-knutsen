@@ -91,8 +91,7 @@ $custom-fs-3-625rem: 3.625rem;
 // Nav
 
 .header-logo {
-  height: 100px;
-  width: 150px;
+  height: 75px;
 }
 
 #basic-nav-dropdown {
@@ -222,6 +221,9 @@ $custom-fs-3-625rem: 3.625rem;
 }
 
 @media screen and (min-width: 992px) {
+  .header-logo {
+    height: 100px;
+  }
   .frontpage-banner {
     height: 600px;
   }

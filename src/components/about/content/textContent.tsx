@@ -15,8 +15,8 @@ export const aboutParagraph2 = "og en dyp forståelse for metallarbeid, var det 
 export const aboutParagraph3Bold = "Marius' kreativitet";
 export const aboutParagraph3 = "kom virkelig til sin rett da han begynte å utvikle nye produkter og løsninger for sine kunder. Fra enkle reparasjoner til komplekse konstruksjoner, har han alltid hatt et mål om å finne den mest effektive og elegante løsningen. Det var ikke nok å bare løse et problem – Marius ville overgå kundens forventninger.";
 
-export const aboutParagraph4Bold = "Med hver ny utfordring vokste Marius' kunnskap og erfaring.";
-export const aboutParagraph4 = "Han eksperimenterte med ulike materialer og teknikker, og utviklet en unik evne til å tilpasse seg nye situasjoner. Fra fiskeoppdrett til skipsbygging, har Marius og hans team levert innovative løsninger som har satt nye standarder i bransjen.";
+export const aboutParagraph4Bold = "Med hver ny utfordring";
+export const aboutParagraph4 = "vokste Marius' kunnskap og erfaring. Han eksperimenterte med ulike materialer og teknikker, og utviklet en unik evne til å tilpasse seg nye situasjoner. Fra fiskeoppdrett til skipsbygging, har Marius og hans team levert innovative løsninger som har satt nye standarder i bransjen.";
 
 export const aboutParagraph5Bold = "Marius' visjon";
 export const aboutParagraph5 =
