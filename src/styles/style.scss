@@ -11,6 +11,7 @@
 $main-dark-font: #212529;
 $secondary-blue-font: #1e2245;
 $main-blue-color: #0092ff;
+$section-border-color: #dee2e6;
 
 // Box shadow variables
 
@@ -67,6 +68,14 @@ $custom-fs-3-625rem: 3.625rem;
   }
 }
 
+.fs-1-5rem-to-2rem {
+  font-size: $custom-fs-1-5rem;
+
+  @include media-breakpoint-up("lg") {
+    font-size: $custom-fs-2rem;
+  }
+}
+
 .fs-2-125rem-to-3-625rem {
   font-size: $custom-fs-2-125rem;
 
@@ -91,8 +100,7 @@ $custom-fs-3-625rem: 3.625rem;
 // Nav
 
 .header-logo {
-  height: 100px;
-  width: 150px;
+  height: 75px;
 }
 
 #basic-nav-dropdown {
@@ -127,6 +135,10 @@ $custom-fs-3-625rem: 3.625rem;
   width: 100%;
 }
 
+.section-border {
+  border-bottom: 1px solid $section-border-color;
+}
+
 // Buttons
 
 .blue-button {
@@ -134,10 +146,8 @@ $custom-fs-3-625rem: 3.625rem;
   border-radius: 0.5rem;
   box-sizing: border-box;
   color: #ffffff;
-  display: flex;
   font-size: $custom-fs-1-25rem;
   font-weight: 500;
-  justify-content: center;
   padding: 0.5rem 1.75rem;
   text-decoration: none;
   border: 0;
@@ -222,6 +232,9 @@ $custom-fs-3-625rem: 3.625rem;
 }
 
 @media screen and (min-width: 992px) {
+  .header-logo {
+    height: 100px;
+  }
   .frontpage-banner {
     height: 600px;
   }

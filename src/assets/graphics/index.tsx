@@ -1,3 +1,3 @@
-import mainLogo from "./fk-logo.png";
+import mainLogo from "./logo-alternate.png";
 
 export { mainLogo };

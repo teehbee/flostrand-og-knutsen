@@ -15,7 +15,7 @@ function Header() {
   const handleShow = () => setShow(true);
   return (
     <>
-      <Navbar expand="lg" className="container-fluid py-lg-3">
+      <Navbar expand="lg" className="container-fluid">
         <div className="container-fluid px-4">
           <Link to="/">
             <img src={mainLogo} className="header-logo" aria-label="logo" />
