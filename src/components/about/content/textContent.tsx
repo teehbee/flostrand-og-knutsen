@@ -35,4 +35,19 @@ export const aboutLowerImageHeader = "Hva tilbyr vi?";
 
 export const aboutLowerImageText = "Med over 10 års erfaring innen sveising og metallarbeid, tilbyr vi en bred spekter av tjenester tilpasset dine behov. Våre erfarne fagfolk benytter avansert utstyr og teknikker for å levere produkter av høyeste kvalitet.";
 
-// Lower text body
+// Lower body text
+
+export const aboutLowerParagraph1Bold = "Sveising: ";
+export const aboutLowerParagraph1 = "Vi utfører presisjonsarbeid i ulike sveisemetoder, inkludert TIG, MIG/MAG og MMA.";
+
+export const aboutLowerParagraph2Bold = "Produktutvikling: ";
+export const aboutLowerParagraph2 = "Fra idé til ferdig produkt – vi hjelper deg med hele prosessen, fra design og prototyping til produksjon.";
+
+export const aboutLowerParagraph3Bold = "Konstruksjon: ";
+export const aboutLowerParagraph3 = "Vi konstruerer og monterer stålkonstruksjoner for ulike formål, som for eksempel bygg, industri og offshore.";
+
+export const aboutLowerParagraph4Bold = "Reparasjon og vedlikehold: ";
+export const aboutLowerParagraph4 = "Vi utfører reparasjoner og vedlikehold på eksisterende utstyr, uansett størrelse eller kompleksitet.";
+
+export const aboutLowerParagraph5Bold = "Tilpassede løsninger: ";
+export const aboutLowerParagraph5 = "Vi utvikler skreddersydde løsninger for dine spesifikke behov, og sørger for at produktet tilfredsstiller alle krav og standarder.";
