@@ -24,17 +24,17 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto main-navigation dark-font pe-3">
               <NavDropdown title="Tjenester" id="basic-nav-dropdown" className="dark-font fs-1-25rem fw-500">
-                <NavDropdown.Item href="#tjeneste1" className="dark-font fs-1-25rem fw-500">
-                  Tjeneste 1
+                <NavDropdown.Item href="/marine-deck-fabrication" className="dark-font fs-1-25rem fw-500">
+                  Marine deck fabrication
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#tjeneste1" className="dark-font fs-1-25rem fw-500">
-                  Tjeneste 2
+                <NavDropdown.Item href="/metal-works" className="dark-font fs-1-25rem fw-500">
+                  Metallarbeider
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#tjeneste1" className="dark-font fs-1-25rem fw-500">
-                  Tjeneste 3
+                <NavDropdown.Item href="/personel" className="dark-font fs-1-25rem fw-500">
+                  Personell
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#tjeneste1" className="dark-font fs-1-25rem fw-500">
-                  Tjeneste 4
+                <NavDropdown.Item href="/garden-works" className="dark-font fs-1-25rem fw-500">
+                  Hagearbeider
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/about" className="btn dark-font fs-1-25rem fw-500">
@@ -53,26 +53,26 @@ function Header() {
             <img src={mainLogo} className="header-logo" aria-label="logo" />
           </Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body className="d-flex flex-column align-items-start w-100">
+        <Offcanvas.Body className="d-flex flex-column align-items-start w-100 ">
           <Navbar.Text className="py-1 fw-bold dark-font dropdown-border">Tjenester</Navbar.Text>
-          <div>
-            <Nav.Link href="/tjeneste1" className="btn py-1 dark-font text-indent-dropdown fw-500">
-              Tjeneste 1
+          <div className="text-start dropdown-border">
+            <Nav.Link href="/marine-deck-fabrication" className="btn py-1 dark-font text-indent-dropdown fw-500 text-start" onClick={handleClose}>
+              Marine deck fabrication
             </Nav.Link>
-            <Nav.Link href="/tjeneste2" className="btn py-1 dark-font text-indent-dropdown fw-500">
-              Tjeneste 2
+            <Nav.Link href="/metal-works" className="btn py-1 dark-font text-indent-dropdown fw-500 text-start" onClick={handleClose}>
+              Metallarbeider
             </Nav.Link>
-            <Nav.Link href="/tjeneste3" className="btn py-1 dark-font text-indent-dropdown fw-500">
-              Tjeneste 3
+            <Nav.Link href="/personel" className="btn py-1 dark-font text-indent-dropdown fw-500 text-start" onClick={handleClose}>
+              Personello
             </Nav.Link>
-            <Nav.Link href="/tjeneste4" className="btn py-1 dark-font text-indent-dropdown fw-500">
-              Tjeneste 4
+            <Nav.Link href="/garden-works" className="btn py-1 dark-font text-indent-dropdown fw-500 text-start" onClick={handleClose}>
+              Hagearbeider
             </Nav.Link>
           </div>
-          <Nav.Link href="/about" className="btn py-1 dark-font fw-500">
+          <Nav.Link href="/about" className="btn py-1 dark-font fw-500" onClick={handleClose}>
             Om oss
           </Nav.Link>
-          <Nav.Link href="/contact" className="btn py-1 dark-font fw-500">
+          <Nav.Link href="/contact" className="btn py-1 dark-font fw-500" onClick={handleClose}>
             Kontakt
           </Nav.Link>
         </Offcanvas.Body>
