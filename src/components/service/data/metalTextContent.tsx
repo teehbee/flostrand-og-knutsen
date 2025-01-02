@@ -1,5 +1,7 @@
 import { metalWorksImg1, metalWorksImg2, metalWorksImg3, metalWorksImg4, metalWorksImg5 } from "../../../assets/img/service-metalworks";
 
+export const metalWorksTitle = "Metallarbeider";
+
 export const metalworksHeader = "Trenger en header";
 
 export const metalworksText = [
