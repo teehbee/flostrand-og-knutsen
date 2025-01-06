@@ -5,7 +5,7 @@ import { aboutLowerImageDescription, aboutLowerImageHeader, aboutLowerImageText 
 function AboutLowerImageSection() {
   return (
     <section id="about-us-landing" className="position-relative">
-      <AboutLandingImage aboutMainHeaderLarge={aboutSecondaryHeaderLarge} aboutMainHeaderSmall={aboutSecondaryHeaderSmall} aboutMainImageDescription={aboutLowerImageDescription}></AboutLandingImage>
+      <AboutLandingImage aboutMainHeaderLarge={aboutSecondaryHeaderLarge} aboutMainHeaderSmall={aboutSecondaryHeaderSmall} aboutMainImageDescription={aboutLowerImageDescription} />
       <AboutLowerText aboutLowerHeader={aboutLowerImageHeader} aboutLowerImageText={aboutLowerImageText} />
     </section>
   );

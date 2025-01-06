@@ -9,7 +9,7 @@ function FrontpageContent() {
         <LandingImage mainHeaderLarge={mainHeaderLarge} mainHeaderSmall={mainHeaderSmall} imageDescription={landingImageDescription} />
         <LandingText landingTitle={landingTitle} landingQuote={landingQuote} buttonText={landingButtonText} />
       </section>
-      <section id="services" className="container my-3 py-3 my-lg-5 py-lg-5">
+      <section id="services" className="container my-3 py-3 mt-lg-5 pt-lg-5">
         <ServicesText title={servicesTitle} description={servicesDescription} />
         <ServicesTiles />
       </section>

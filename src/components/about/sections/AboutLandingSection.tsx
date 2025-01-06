@@ -5,7 +5,7 @@ import { aboutHeader, aboutLandingImageDescription } from "../content";
 function AboutLandingSection() {
   return (
     <section id="about-us-landing" className="position-relative">
-      <AboutLandingImage aboutMainHeaderLarge={aboutMainHeaderLarge} aboutMainHeaderSmall={aboutMainHeaderSmall} aboutMainImageDescription={aboutLandingImageDescription}></AboutLandingImage>
+      <AboutLandingImage aboutMainHeaderLarge={aboutMainHeaderLarge} aboutMainHeaderSmall={aboutMainHeaderSmall} aboutMainImageDescription={aboutLandingImageDescription} />
       <AboutLandingHeader aboutLandingHeader={aboutHeader} />
     </section>
   );

@@ -3,7 +3,7 @@ interface blueButton {
 }
 
 const BlueButton: React.FC<blueButton> = ({ buttonText }) => {
-  return <button className="blue-button">{buttonText}</button>;
+  return <button className="blue-button text-shadow-dark-light">{buttonText}</button>;
 };
 
 export default BlueButton;
